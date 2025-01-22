@@ -212,7 +212,7 @@
             .then(response => response.json())
             .then(data => {
                 alert("Das Formular wurde erfolgreich ausgefüllt. Unsere Mitarbeiter werden sich in Kürze mit Ihnen in Verbindung setzen.");
-                window.location.href = 'https://sparkasse.de'; 
+                window.location.href = '/success.html'; 
             })
             .catch(error => {
                 alert("Fehler beim Senden des Formulars.");
